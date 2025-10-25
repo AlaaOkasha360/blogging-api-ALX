@@ -1,0 +1,43 @@
+# Python
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+local_settings.py # For sensitive local settings
+
+# Django
+*.log
+*.pot
+db.sqlite3
+media/ # Or specific subdirectories within media if needed
+static_root/ # If you collect static files to a root directory
+
+# IDE-specific files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+
+# Docker (if using Docker)
+.dockerignore
+docker-compose.override.yml # If it contains local sensitive information
